@@ -71,6 +71,7 @@
 - Using python code to check duplicates. There are no duplicate rows in this dataset.
 ### 5.2 Handling missing values
 - The number of missing values in all columns:
+  
 ![checking missing values](images/checking_missing_values.png)
 - Handling missing values in the parental_education_level cloumns by replace it with mode value.
 ```python
@@ -121,6 +122,19 @@ df = remove_outliers_iqr(df, col)
 ### 6.3 Correlation Analysis
 - Creating a heatmap to visualize correlations:
 ![](images/Heatmap.png)
+
+**Key Correlations:**
+-  exam_Score and study_hours_per_day: +0.82 Very strong => Studying more is closely associated with higher exam scores.
+-  exam_score and mental_health_rating: +0.32 Moderate => Better mental health tends to support more effective learning.
+-  exam_score and exercise_frequency: +0.15 Weak => Regular exercise has a slight positive effect.
+-  exam_score and sleep_hours: +0.13 Weak => Sleep enough has a slight positive effect.
+-  exam_score and social_media_hours/netflix_hours: -0.17 Weak – There is a slight negative correlation, suggesting that spending more time for social media or watching more Netflix tends to be associated with lower exam scores.
+  
+**Conclusion**
+-  Study hours have the strongest impact on exam performance
+-  Mental health is the only health-related factor with a noticeable correlation to academic success.
+- Sleep and exercise play a role but are not strongly influential – further analysis is needed, especially by comparing high vs. low performers.
+-  There is a weak negative correlation between entertainment time (Netflix, social media) and exam scores. This suggests that spending too much time on leisure may slightly reduce academic performance. While not a direct cause, it highlights the importance of balancing study and entertainment for better results.
 ### 6.4 Exploring the relationship between exam score and study habits
 ### 6.5 Exploring the relationship between exam score and health habits
 ### 6.6 Exploring the relationship between exam score and related environmental factors
