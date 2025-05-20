@@ -40,7 +40,14 @@
 
 - Description: This dataset explores the relationship between student habits and exam score. It contains multiple variables related to study habits, health habits, and enviromental factors.
 ## 5. Data overview:
-![data overview](images/data_overview.png)
+|    | student_id   |   age | gender   |   study_hours_per_day |   social_media_hours |   netflix_hours | part_time_job   |   attendance_percentage |   sleep_hours | diet_quality   |   exercise_frequency | parental_education_level   | internet_quality   |   mental_health_rating | extracurricular_participation   |   exam_score |
+|---:|:-------------|------:|:---------|----------------------:|---------------------:|----------------:|:----------------|------------------------:|--------------:|:---------------|---------------------:|:---------------------------|:-------------------|-----------------------:|:--------------------------------|-------------:|
+|  0 | S1000        |    23 | Female   |                   0   |                  1.2 |             1.1 | No              |                    85   |           8   | Fair           |                    6 | Master                     | Average            |                      8 | Yes                             |         56.2 |
+|  1 | S1001        |    20 | Female   |                   6.9 |                  2.8 |             2.3 | No              |                    97.3 |           4.6 | Good           |                    6 | High School                | Average            |                      8 | No                              |        100   |
+|  2 | S1002        |    21 | Male     |                   1.4 |                  3.1 |             1.3 | No              |                    94.8 |           8   | Poor           |                    1 | High School                | Poor               |                      1 | No                              |         34.3 |
+|  3 | S1003        |    23 | Female   |                   1   |                  3.9 |             1   | No              |                    71   |           9.2 | Poor           |                    4 | Master                     | Good               |                      1 | Yes                             |         26.8 |
+|  4 | S1004        |    19 | Female   |                   5   |                  4.4 |             0.5 | No              |                    90.9 |           4.9 | Fair           |                    3 | Master                     | Good               |                      1 | No                              |         66.4 |
+
 
 ### Structure:
 - exam_score: The final exam score of each student.
@@ -70,14 +77,28 @@
 - Handling missing values in the parental_education_level cloumns by replace it with mode value.
 ```python
 # Filling missing values in the 'parental_education_level' column with the most frequent value (mode)
-
 df['parental_education_level'] = df['parental_education_level'].fillna(df['parental_education_level'].mode()[0])
 ```
 ### 5.3 Ensuring consistency
 - Check unique values in categorical columns to ensure consistency.
 ### 5.4 Fixing incorrect data types
-
+- Converting all categorical columns in the Data Frame to the 'category' data type
 ### 5.5 Identifying and handling outliers
+- Outlier Detection & Removal using IQR:
+```python
+# Outlier Detection & Removal using IQR
+def  remove_outliers_iqr(data, column):
+Q1 = data[column].quantile(0.25)
+Q3 = data[column].quantile(0.75)
+IQR = Q3 - Q1
+lower = Q1 - 1.5 * IQR
+upper = Q3 + 1.5 * IQR
+return data[(data[column] >= lower) & (data[column] <= upper)]
+# Apply to selected numerical columns
+numeric_cols = df.select_dtypes(include=['number']).columns.tolist()
+for col in numeric_cols:
+df = remove_outliers_iqr(df, col)
+```
 ## 6. Exploratory data analysis
 ### 6.1  Summary Statistics
 ### 6.2 Exploring the distribution of objective variable
