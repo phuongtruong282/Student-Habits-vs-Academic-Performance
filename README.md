@@ -111,7 +111,13 @@ df = remove_outliers_iqr(df, col)
 -   Average exercise: 3 (range: 0 -> 6)
 -   Average mental health rating: 5.4 (range: 1 -> 10)
 ### 6.2 Exploring the distribution of objective variable
+- Using histogram to visualize the distribution of exam_scores (objective variable):
+![](images/Histogram_exam_score.png)
 
+**Observation**
+-   The distribution is fairly normal, with a slight left skew (a slight skew toward lower scores).
+-  Many students have exam scores ranging from 60 to 80.
+- Some students scored very low (20-30), while others achieved a perfect score of 100.
 ### 6.3 Correlation Analysis
 ### 6.4 Exploring the relationship between exam score and study habits
 ### 6.5 Exploring the relationship between exam score and health habits
