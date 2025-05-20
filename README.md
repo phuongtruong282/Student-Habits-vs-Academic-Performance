@@ -146,7 +146,12 @@ In the scope of this project and dataset, the factors considered as study habits
 - extracurricular_participation.
 
 **Using Power BI to visualize the relationship between exam _score and study habits:**
+
 ![](images/Corr_Studyhours_score.png)
+
+Performance Category
+
+![](images/Corr_studyhours_leisurehours.png)
   
 
 ### 6.5 Exploring the relationship between exam score and health habits
