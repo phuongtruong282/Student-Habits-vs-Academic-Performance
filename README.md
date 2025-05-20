@@ -120,7 +120,7 @@ df = remove_outliers_iqr(df, col)
 - Some students scored very low (20-30), while others achieved a perfect score of 100.
 ### 6.3 Correlation Analysis
 - Creating a heatmap to visualize correlations:
-![](images/heatmap.png)
+![](images/Heatmap.png)
 ### 6.4 Exploring the relationship between exam score and study habits
 ### 6.5 Exploring the relationship between exam score and health habits
 ### 6.6 Exploring the relationship between exam score and related environmental factors
