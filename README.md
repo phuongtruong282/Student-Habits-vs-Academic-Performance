@@ -66,10 +66,10 @@
 - extracurricular_participation: Indicates if the student is involved in extracurricular activities.
 ### Summary:
 ![data summary](images/data_summary.png)
-## 5. Data cleaning:
-### 5.1 Removing duplicates
+## 6. Data cleaning:
+### 6.1 Removing duplicates
 - Using python code to check duplicates. There are no duplicate rows in this dataset.
-### 5.2 Handling missing values
+### 6.2 Handling missing values
 - The number of missing values in all columns:
   
 ![checking missing values](images/checking_missing_values.png)
@@ -78,11 +78,11 @@
 # Filling missing values in the 'parental_education_level' column with the most frequent value (mode)
 df['parental_education_level'] = df['parental_education_level'].fillna(df['parental_education_level'].mode()[0])
 ```
-### 5.3 Ensuring consistency
+### 6.3 Ensuring consistency
 - Check unique values in categorical columns to ensure consistency.
-### 5.4 Fixing incorrect data types
+### 6.4 Fixing incorrect data types
 - Converting all categorical columns in the Data Frame to the 'category' data type
-### 5.5 Identifying and handling outliers
+### 6.5 Identifying and handling outliers
 - Outlier Detection & Removal using IQR:
 ```python
 # Outlier Detection & Removal using IQR
@@ -98,8 +98,8 @@ numeric_cols = df.select_dtypes(include=['number']).columns.tolist()
 for col in numeric_cols:
 df = remove_outliers_iqr(df, col)
 ```
-## 6. Exploratory data analysis
-### 6.1  Summary Statistics
+## 7. Exploratory data analysis
+### 7.1  Summary Statistics
 - Now, let's take a look at some descriptive information of this dataset after cleaning:
  ![data cleaned describe](images/Data_cleaned_describe.png)
  **Observations**
@@ -111,7 +111,7 @@ df = remove_outliers_iqr(df, col)
 -   Average sleep: 6.5 hours (minimum 3.2h, maximum 9.8h)
 -   Average exercise: 3 (range: 0 -> 6)
 -   Average mental health rating: 5.4 (range: 1 -> 10)
-### 6.2 Exploring the distribution of objective variable
+### 7.2 Exploring the distribution of objective variable
 - Using histogram to visualize the distribution of exam_scores (objective variable):
 ![](images/Histogram_exam_score.png)
 
@@ -119,7 +119,7 @@ df = remove_outliers_iqr(df, col)
 - The distribution is fairly normal, with a slight left skew (a slight skew toward lower scores).
 - Many students have exam scores ranging from 60 to 80.
 - Some students scored very low (20-30), while others achieved a perfect score of 100.
-### 6.3 Correlation Analysis
+### 7.3 Correlation Analysis
 - Creating a heatmap to visualize correlations:
 ![](images/Heatmap.png)
 
@@ -135,7 +135,7 @@ df = remove_outliers_iqr(df, col)
 -  Mental health is the only health-related factor with a noticeable correlation to academic success.
 - Sleep and exercise play a role but are not strongly influential – further analysis is needed, especially by comparing high vs. low performers.
 -  There is a weak negative correlation between entertainment time (Netflix, social media) and exam scores. This suggests that spending too much time on leisure may slightly reduce academic performance. While not a direct cause, it highlights the importance of balancing study and entertainment for better results.
-### 6.4 Exploring the relationship between exam score and study habits
+### 7.4 Exploring the relationship between exam score and study habits
 In the scope of this project and dataset, the factors considered as study habits include:
 
 - study_hours_per_day
@@ -154,9 +154,9 @@ Performance Category
 ![](images/Corr_studyhours_leisurehours.png)
   
 
-### 6.5 Exploring the relationship between exam score and health habits
-### 6.6 Exploring the relationship between exam score and related environmental factors
-#### 6.6.1 Exam_score and parental_education_level
+### 7.5 Exploring the relationship between exam score and health habits
+### 7.6 Exploring the relationship between exam score and related environmental factors
+#### 7.6.1 Exam_score and parental_education_level
 
 ![](images/Relationship_parental_education_score.png)
 **Observations**
@@ -173,7 +173,7 @@ Performance Category
 => Parental education level does not have a linear relationship with exam results. It may have an indirect influence, but it is not a determining factor.
 Observations
 
-#### 6.6.2 Exam_score and internet_quality
+#### 7.6.2 Exam_score and internet_quality
 
 ![](images/Relationship_internet_score.png)
 
@@ -188,5 +188,5 @@ Observations
 -   Internet quality does not have a clear or consistent impact on exam scores. Students with "Good" Internet do not necessarily achieve higher scores.
     
 -   This suggests that Internet quality is not a direct determining factor in academic performance—students may use the Internet for various purposes, not just for studying.
-## 7. Data modeling
-## 8. Outcomes:
+## 8. Data modeling
+## 9. Outcomes:
