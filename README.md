@@ -1,5 +1,3 @@
-
-
 # The relationship between Student Habits and Academic Performance
 
 ## 1. Introduction:
@@ -101,7 +99,19 @@ df = remove_outliers_iqr(df, col)
 ```
 ## 6. Exploratory data analysis
 ### 6.1  Summary Statistics
+- Now, let's take a look at some descriptive information of this dataset after cleaning:
+ ![data cleaned describe](images/Data_cleaned_describe.png)
+ **Observations**
+-   Average exam score: 69.5 (range: 26.2 → 100.0)
+-   Average study time: 3.53 hours/day, with some students studying 0 hours and others up to 7.3 hours
+-   Average social media use: 2.5 hours/day (up to 5.6 hours)
+-   Average netflix use: 1.8 hours/day (up to 4.6 hours)
+-   Average attendance: 84.1% (up to 100%)
+-   Average sleep: 6.5 hours (minimum 3.2h, maximum 9.8h)
+-   Average exercise: 3 (range: 0 -> 6)
+-   Average mental health rating: 5.4 (range: 1 -> 10)
 ### 6.2 Exploring the distribution of objective variable
+
 ### 6.3 Correlation Analysis
 ### 6.4 Exploring the relationship between exam score and study habits
 ### 6.5 Exploring the relationship between exam score and health habits
