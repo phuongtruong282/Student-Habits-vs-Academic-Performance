@@ -136,6 +136,18 @@ df = remove_outliers_iqr(df, col)
 - Sleep and exercise play a role but are not strongly influential – further analysis is needed, especially by comparing high vs. low performers.
 -  There is a weak negative correlation between entertainment time (Netflix, social media) and exam scores. This suggests that spending too much time on leisure may slightly reduce academic performance. While not a direct cause, it highlights the importance of balancing study and entertainment for better results.
 ### 6.4 Exploring the relationship between exam score and study habits
+In the scope of this project and dataset, the factors considered as study habits include:
+
+- study_hours_per_day
+- social_media_hours
+- netflix_hours
+- part_time_job
+- attendance_percentage
+- extracurricular_participation.
+
+**Using Power BI to visualize the relationship between exam _score and study habits:**
+  
+
 ### 6.5 Exploring the relationship between exam score and health habits
 ### 6.6 Exploring the relationship between exam score and related environmental factors
 ## 7. Data modeling
