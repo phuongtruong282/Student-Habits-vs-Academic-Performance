@@ -38,3 +38,5 @@
 - 	internet_quality: Describes the quality of the student's internet connection.
 - 	mental_health_rating: A self-reported mental health score.
 - 	extracurricular_participation: Indicates if the student is involved in extracurricular activities.
+### Summary:
+![data summary](images/data_summary.png)
