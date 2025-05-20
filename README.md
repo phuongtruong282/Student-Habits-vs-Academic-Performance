@@ -20,3 +20,4 @@
 - 	Source: Public dataset from Kaggle (Student Habits vs Academic Performance): https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance/data.
 - 	Description: This dataset explores the relationship between student habits and exam score. It contains multiple variables related to study habits, health habits, and enviromental factors.
 ## 4. Data overview:
+![data overview](images/data_overview.png)
