@@ -168,8 +168,20 @@ In the scope of this project and dataset, the factors considered as study habits
 => Parental education level does not have a linear relationship with exam results. It may have an indirect influence, but it is not a determining factor.
 Observations
 
-All three groups (Poor, Average, Good) have similar median scores (around 70).
+#### 6.6.2 Exam_score and internet_quality
 
-The Average group has the highest median, followed by Poor, and lastly Good (which is surprising, as expectations usually suggest the opposite).
+![](images/Relationship_internet_score.png)
+
+**Observations**
+
+-   All three groups (Poor, Average, Good) have similar median scores (around 70).
+    
+-   The Average group has the highest median, followed by Poor, and lastly Good (which is surprising, as expectations usually suggest the opposite).
+  
+**Conclusion:**
+
+-   Internet quality does not have a clear or consistent impact on exam scores. Students with "Good" Internet do not necessarily achieve higher scores.
+    
+-   This suggests that Internet quality is not a direct determining factor in academic performance—students may use the Internet for various purposes, not just for studying.
 ## 7. Data modeling
 ## 8. Outcomes:
