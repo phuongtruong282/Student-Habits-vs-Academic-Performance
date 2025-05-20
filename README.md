@@ -151,5 +151,25 @@ In the scope of this project and dataset, the factors considered as study habits
 
 ### 6.5 Exploring the relationship between exam score and health habits
 ### 6.6 Exploring the relationship between exam score and related environmental factors
+#### 6.6.1 Exam_score and parental_education_level
+
+![](images/Relationship_parental_education_score.png)
+**Observations**
+
+-   There are three groups: Master, High School, and Bachelor.
+-   The Bachelor group has the highest median score (72), followed by High School, and lastly Master (66).
+-   The score distribution of the Master group is skewed toward lower scores.
+-   The Bachelor group tends to have higher scores, with more stable distribution.
+
+**Conclusion:**
+
+-   The group with parents holding a Bachelor's or High School education has a slightly higher median score compared to the Master's group, which is contrary to common expectations.This could be due to other factors such as expectations or pressure.
+
+=> Parental education level does not have a linear relationship with exam results. It may have an indirect influence, but it is not a determining factor.
+Observations
+
+All three groups (Poor, Average, Good) have similar median scores (around 70).
+
+The Average group has the highest median, followed by Poor, and lastly Good (which is surprising, as expectations usually suggest the opposite).
 ## 7. Data modeling
 ## 8. Outcomes:
