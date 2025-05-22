@@ -8,7 +8,7 @@ Student performance is shaped by a combination of study habits, health habits an
 
 ### 2.1 Purposes:
 This project aims to:
-- Explore how student habits affect academic performance
+- Explore how student habits affect exam score.
 - identify key influencing factors
 - Build a prediction model for exam scores.
 - Provide actionable recommendations to help students improve their results.
@@ -139,7 +139,7 @@ In the scope of this project and dataset, the factors considered as study habits
 - attendance_percentage
 - extracurricular_participation.
 
-**Using Power BI to visualize the relationship between exam _score and study habits:**
+**The following section presents a detailed analysis of the relationship between exam scores and key influencing factors.**
 
 #### 7.4.1 Exam_score and study_hours_per_day
 
@@ -178,9 +178,25 @@ In the scope of this project and dataset, the factors considered as study habits
 - There is a clear inverse relationship between leisure time and academic performance. Students with higher performance tend to dedicate more time to studying and less to leisure activities, whereas lower-performing - students exhibit the opposite pattern.
 - Balancing leisure and study time effectively appears crucial for better academic outcomes.
 
-#### 7.4.3 Exam_score with social_media_hours and netflix_hours
+#### 7.4.3 Exam_score with attendance_percentage
+
+
 
 ### 7.5 Exploring the relationship between exam score and health habits
+
+In the scope of this project and dataset, the factors considered as health habits include:
+
+- exercise_frequency
+- sleep_hours
+- mental_health_rating
+- diet_quality
+
+**The following section presents a detailed analysis of the relationship between exam scores and key influencing factors.**
+
+#### 7.5.1 Exploring the relationship between exam score and excersise_frequency
+
+
+
 ### 7.6 Exploring the relationship between exam score and related environmental factors
 #### 7.6.1 Exam_score and parental_education_level
 
