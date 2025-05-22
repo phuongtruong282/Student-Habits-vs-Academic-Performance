@@ -211,12 +211,51 @@ In the scope of this project and dataset, the factors considered as health habit
 
 #### 7.5.1 Exam score and excersise_frequency
 
+![](images/avg_score_exercise.png)
 
+**Insight**
+
+- There is a positive trend between exercise frequency and average exam scores.
+
+- Students who exercise more frequently tend to achieve higher average scores.
+
+- Specifically, students who exercise 5 to 6 times per week have the highest average scores, while those who do not exercise at all (0 times) have the lowest.
+
+**Conclusion**
+
+- Regular physical exercise appears to have a beneficial impact on academic performance. Encouraging students to engage in consistent physical activity could help improve their focus, cognitive function, and ultimately their exam results.
 
 #### 7.5.2 Exam score and sleep_hours  
 
+![](images/avg_score_sleep.png)
+
+**Insight**
+
+- Students who sleep 7–8 hours per night have the highest average exam scores and also represent the largest group.
+
+- Students who sleep less than 5 hours have the lowest average scores, suggesting sleep deprivation negatively impacts academic performance.
+
+- Interestingly, students who sleep more than 8 hours do not perform better than those in the 7–8 hour group, indicating that oversleeping doesn't lead to higher scores.
+
+**Conclusion**
+
+- There is a strong positive relationship between optimal sleep duration (7–8 hours) and better academic performance. Both sleep deprivation and excessive sleep appear to be associated with lower average scores, emphasizing the importance of balanced sleep habits for students.
+
 #### 7.5.3 Exam score and mental_health_rating
 
+![](images/avg_score_mental.png)
+
+**Insight**
+
+- Students in the High mental health group have the highest average scores, followed by the Medium, and then Low group.
+
+- Despite having the smallest number of students, the High mental health group demonstrates superior academic performance.
+
+- In contrast, the Low mental health group has the largest number of students, but their average score is the lowest among the three groups.
+
+**Conclusion**
+
+- There is a positive correlation between better mental health and higher academic achievement. This suggests that promoting mental well-being among students could be a key factor in improving overall academic performance. Schools and institutions should consider implementing mental health support programs to help students succeed both emotionally and academically.
 
 
 ### 7.6 Exploring the relationship between exam score and related environmental factors
