@@ -282,7 +282,7 @@ In the scope of this project and dataset, the factors considered as health habit
 -   The group with parents holding a Bachelor's or High School education has a slightly higher median score compared to the Master's group, which is contrary to common expectations.This could be due to other factors such as expectations or pressure.
 
 => Parental education level does not have a linear relationship with exam results. It may have an indirect influence, but it is not a determining factor.
-Observations
+
 
 #### 7.6.2 Exam_score and internet_quality
 
@@ -299,5 +299,17 @@ Observations
 -   Internet quality does not have a clear or consistent impact on exam scores. Students with "Good" Internet do not necessarily achieve higher scores.
     
 -   This suggests that Internet quality is not a direct determining factor in academic performance. Students may use the Internet for various purposes, not just for studying.
-## 8. Data modeling
-## 9. Outcomes:
+## 8. Overall Conclusion
+- Study hours per day have the strongest impact on exam performance. Students who dedicate more daily time to studying tend to achieve higher scores, regardless of gender or attendance rate. Maintaining a consistent study habit of at least 4 hours per day is crucial for improving academic results.
+
+- Mental health rating shows a clear positive correlation with academic achievement. Students with better mental well-being generally perform better, highlighting the importance of supporting mental health in educational settings.
+
+- Sleep hours and exercise frequency play a supporting role in academic performance. Optimal sleep duration of 7–8 hours and regular exercise contribute to better scores. However, their impact is not as strong as study time and mental health.
+- Leisure time, especially time spent on Netflix and social media, shows a slight negative correlation with exam scores. Balancing study and leisure time effectively is important to avoid potential negative effects on academic performance.
+
+- Attendance percentage has a mild positive effect on exam results but is less influential than actual study hours per day.
+
+- Parental education level and Internet quality do not exhibit a clear linear relationship with exam scores. These factors may have indirect effects depending on other conditions.
+- 
+## 9. Data modeling
+## 10. Outcomes:
