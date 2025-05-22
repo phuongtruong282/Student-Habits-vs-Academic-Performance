@@ -175,13 +175,28 @@ In the scope of this project and dataset, the factors considered as study habits
 - Students in the "Excellent" and "Very Good" categories spend over 50% of their daily time on studying, while those in the "Weak" category spend significantly less time studying and more time on leisure.
 
 **Conclusion**
+
 - There is a clear inverse relationship between leisure time and academic performance. Students with higher performance tend to dedicate more time to studying and less to leisure activities, whereas lower-performing - students exhibit the opposite pattern.
 - Balancing leisure and study time effectively appears crucial for better academic outcomes.
 
 #### 7.4.3 Exam_score and attendance_percentage
 
+![](images/exam_score_attendance.png)
 
+**Insight:**
 
+- Students studying more (4–6h or 6–8h) tend to score higher on exams, with many scoring above 80, regardless of attendance percentage.
+
+- Students with low study hours (0–2h) are mostly clustered in the lower score range (below 70), even when their attendance is high.
+
+- Attendance has a weak positive trend with exam scores, but study hours appear to be a stronger influencing factor.
+
+- The highest scores (90–100) are dominated by students who study 4–6 or 6–8 hours per day, especially those with attendance above 80%.
+
+**Conclusion**
+
+- While attendance percentage has a mild positive impact on exam performance, study time is a significantly stronger predictor of high exam scores. Students who study at least 4 hours per day consistently achieve higher performance, even when attendance is not perfect.
+- Therefore, encouraging longer and consistent daily study habits may be more impactful for improving academic outcomes than focusing solely on class attendance.
 
 ### 7.5 Exploring the relationship between exam score and health habits
 
@@ -195,6 +210,8 @@ In the scope of this project and dataset, the factors considered as health habit
 **The following section presents a detailed analysis of the relationship between exam scores and key influencing factors.**
 
 #### 7.5.1 Exam score and excersise_frequency
+
+
 
 #### 7.5.2 Exam score and sleep_hours  
 
