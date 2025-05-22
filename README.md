@@ -168,7 +168,7 @@ In the scope of this project and dataset, the factors considered as study habits
 **Total Leisure Hours = social_media_hours + netflix_hours**
 
 
-![](images/Corr_studyhours_leisurehours.png)
+![](images/Corre_studyhours_leisurehours.png)
 
 **Insight:**
 - As performance category decreases from A - Excellent to E - Weak, the proportion of study hours per day decreases, while the proportion of leisure hours increases.
@@ -242,6 +242,14 @@ In the scope of this project and dataset, the factors considered as health habit
 - There is a strong positive relationship between optimal sleep duration (7–8 hours) and better academic performance. Both sleep deprivation and excessive sleep appear to be associated with lower average scores, emphasizing the importance of balanced sleep habits for students.
 
 #### 7.5.3 Exam score and mental_health_rating
+
+**The mental health group of students is categorized based on their mental health rating using the following classification:**
+
+| Mental Health Rating | Classification |
+|----------------------|----------------|
+| < 5                  | Low            |
+| ≥ 5 and < 8          | Medium         |
+| ≥ 8                  | High           |
 
 ![](images/avg_score_mental.png)
 
