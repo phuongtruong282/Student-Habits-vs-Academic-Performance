@@ -152,7 +152,7 @@ In the scope of this project and dataset, the factors considered as study habits
 **Conclusion**
 - There is a clear positive correlation between study hours per day and exam scores. Students who study more tend to achieve higher exam scores, regardless of gender.
 
-#### 7.4.2 Exam_score with social_media_hours and netflix_hours
+#### 7.4.2 Exam_score and social_media_hours, netflix_hours
 
 **The exam performance of students is categorized based on their scores using the following classification:**
 
@@ -178,7 +178,8 @@ In the scope of this project and dataset, the factors considered as study habits
 - There is a clear inverse relationship between leisure time and academic performance. Students with higher performance tend to dedicate more time to studying and less to leisure activities, whereas lower-performing - students exhibit the opposite pattern.
 - Balancing leisure and study time effectively appears crucial for better academic outcomes.
 
-#### 7.4.3 Exam_score with attendance_percentage
+#### 7.4.3 Exam_score and attendance_percentage
+
 
 
 
@@ -193,7 +194,11 @@ In the scope of this project and dataset, the factors considered as health habit
 
 **The following section presents a detailed analysis of the relationship between exam scores and key influencing factors.**
 
-#### 7.5.1 Exploring the relationship between exam score and excersise_frequency
+#### 7.5.1 Exam score and excersise_frequency
+
+#### 7.5.2 Exam score and sleep_hours  
+
+#### 7.5.3 Exam score and mental_health_rating
 
 
 
@@ -201,7 +206,7 @@ In the scope of this project and dataset, the factors considered as health habit
 #### 7.6.1 Exam_score and parental_education_level
 
 ![](images/Relationship_parental_education_score.png)
-**Observations**
+**Insight**
 
 -   There are three groups: Master, High School, and Bachelor.
 -   The Bachelor group has the highest median score (72), followed by High School, and lastly Master (66).
@@ -219,7 +224,7 @@ Observations
 
 ![](images/Relationship_internet_score.png)
 
-**Observations**
+**Insight**
 
 -   All three groups (Poor, Average, Good) have similar median scores (around 70).
     
@@ -229,6 +234,6 @@ Observations
 
 -   Internet quality does not have a clear or consistent impact on exam scores. Students with "Good" Internet do not necessarily achieve higher scores.
     
--   This suggests that Internet quality is not a direct determining factor in academic performance—students may use the Internet for various purposes, not just for studying.
+-   This suggests that Internet quality is not a direct determining factor in academic performance. Students may use the Internet for various purposes, not just for studying.
 ## 8. Data modeling
 ## 9. Outcomes:
