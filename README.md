@@ -310,6 +310,10 @@ In the scope of this project and dataset, the factors considered as health habit
 - Attendance percentage has a mild positive effect on exam results but is less influential than actual study hours per day.
 
 - Parental education level and Internet quality do not exhibit a clear linear relationship with exam scores. These factors may have indirect effects depending on other conditions.
-- 
+   
 ## 9. Data modeling
+
+This is a summary of the model:
+
+
 ## 10. Outcomes:
