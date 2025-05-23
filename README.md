@@ -191,7 +191,7 @@ In the scope of this project and dataset, the factors considered as study habits
 
 - Attendance has a weak positive trend with exam scores, but study hours appear to be a stronger influencing factor.
 
-- The highest scores (90–100) are dominated by students who study 4–6 or 6–8 hours per day, especially those with attendance above 80%.
+- The highest scores (90–100) are dominated by students who study 4–6 or 6–8 hours per day, especially those with attendance above 70%.
 
 **Conclusion**
 
