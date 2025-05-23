@@ -127,7 +127,7 @@ df = remove_outliers_iqr(df, col)
 **Conclusion**
 -  Study hours have the strongest impact on exam performance
 -  Mental health is the only health-related factor with a noticeable correlation to academic success.
-- Sleep and exercise play a role but are not strongly influential – further analysis is needed, especially by comparing high vs. low performers.
+- Sleep and exercise play a role but are not strongly influential.
 -  There is a weak negative correlation between entertainment time (Netflix, social media) and exam scores. This suggests that spending too much time on leisure may slightly reduce academic performance. While not a direct cause, it highlights the importance of balancing study and entertainment for better results.
 ### 7.4 Exploring the relationship between exam score and study habits
 In the scope of this project and dataset, the factors considered as study habits include:
