@@ -2,7 +2,7 @@
 
 ## 1. Introduction:
 
-Student performance is shaped by a combination of study habits, health habits and related environmental factors. By analysing data on these behaviours, this project seeks to explore patterns associated with exam success, identify the most influential factors and develop a predictive model to support learning improvement.
+Within the scope of this project and dataset, academic performance is defined as the exam scores. This project explores how student habits influence exam scores. It aims to identify the key factors affecting performance and build a prediction model based on these habits. The findings will help provide practical recommendations to improve students’ academic results.
 
 ## 2. Purposes and Outcomes:
 
