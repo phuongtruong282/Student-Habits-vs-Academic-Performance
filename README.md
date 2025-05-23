@@ -25,7 +25,7 @@ This project aims to:
 - Python: Data processing and analysis.
 - Google Colab: Code execution
 - Power BI: Utilized for data visualization.
--  GitHub: Code versioning and documentation.
+- GitHub: documentation.
 -  PowerPoint: Presentation of results and insights.
 ## 4. Data Sources:
 - Source: Public dataset from Kaggle (Student Habits vs Academic Performance): https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance/data.
