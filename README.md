@@ -172,7 +172,7 @@ In the scope of this project and dataset, the factors considered as study habits
 
 **Insight:**
 - As performance category decreases from A - Excellent to E - Weak, the proportion of study hours per day decreases, while the proportion of leisure hours increases.
-- Students in the "Excellent" and "Very Good" categories spend over 50% of their daily time on studying, while those in the "Weak" category spend significantly less time studying and more time on leisure.
+- Students in the Excellent and Very Good categories spend over 50% of their daily time on studying, while those in the Weak category spend significantly less time studying and more time on leisure.
 
 **Conclusion**
 
