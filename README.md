@@ -304,7 +304,7 @@ In the scope of this project and dataset, the factors considered as health habit
 
 This is a summary of the model:
 
-![](images/Model.png)
+![](images/Model1.png)
 
 **REGRESSION SUMMARY**
 
