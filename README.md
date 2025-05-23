@@ -299,7 +299,51 @@ In the scope of this project and dataset, the factors considered as health habit
 -   Internet quality does not have a clear or consistent impact on exam scores. Students with "Good" Internet do not necessarily achieve higher scores.
     
 -   This suggests that Internet quality is not a direct determining factor in academic performance. Students may use the Internet for various purposes, not just for studying.
-## 8. Overall Conclusion
+   
+## 8. Multiple Linear Regression
+
+This is a summary of the model:
+
+![](images/Model.png)
+
+**REGRESSION SUMMARY**
+
+- Dependent Variable - exam_score: R-squared 0.904 ⇒ The model explains 90.4% of the variance in exam scores, indicating a very strong fit.
+
+- Statistically Significant Variables (P < 0.05):
+
+study_hours_per_day
+social_media_hours
+netflix_hours
+attendance_percentage
+sleep_hours
+exercise_frequency
+mental_health_rating
+
+**EVALUATING THE MODEL**
+
+**Comparison to the Mean:**
+
+The mean of the column is 26.2 . The RMSE of 5.199 is about 19.84% of the mean
+This indicates that the average error in the model's predictions is about 19.84% of the average value in the dataset.
+
+**Comparison to the Standard Deviation:**
+
+The standard deviation is 16.669262. The RMSE is about 31.19% of the standard deviation.
+This suggests that the RMSE is relatively small compared to the variability of the data, indicating good model performance.
+
+**Range of the Data:**
+
+The range of the data is from 26.2 to 100.0 . The RMSE of 5.199 is a small fraction of this range.
+The range is 73.8 units (100-26.2), and the RMSE represents about 7% of this range.
+
+**Summary:** The model has a low error compared to all benchmark measures (mean, standard deviation, and range).
+
+=> This model is performing quite well, especially if absolute precision is not required
+
+## 9. Outcomes:
+
+**Overall Conclusion**
 - Study hours per day have the strongest impact on exam performance. Students who dedicate more daily time to studying tend to achieve higher scores, regardless of gender or attendance rate. Maintaining a consistent study habit of at least 4 hours per day is crucial for improving academic results.
 
 - Mental health rating shows a clear positive correlation with academic achievement. Students with better mental well-being generally perform better, highlighting the importance of supporting mental health in educational settings.
@@ -310,10 +354,36 @@ In the scope of this project and dataset, the factors considered as health habit
 - Attendance percentage has a mild positive effect on exam results but is less influential than actual study hours per day.
 
 - Parental education level and Internet quality do not exhibit a clear linear relationship with exam scores. These factors may have indirect effects depending on other conditions.
-   
-## 9. Data modeling
+  
+**Actionable recommendations**
 
-This is a summary of the model:
+ **- Study Skills Workshops**
+ 
+- Organize workshops to guide students on effective study techniques, daily study planning, and concentration strategies.
+
+**- Mental Health Support Programs**
+
+- Host regular talk sessions focusing on school mental health and emotional well-being.
+
+- Establish clubs such as meditation, yoga, or art-related clubs like painting or music to help students reduce stress.
+
+**- Healthy Lifestyle Campaign**
+
+- Launch the “Healthy Lifestyle Challenges” program featuring weekly communication content and physical activity challenges.
+
+- Include extracurricular sports activities as part of the criteria for students’ behavior/performance evaluation.
+
+**- Time Management Workshops**
+
+- Conduct workshops that teach students how to manage their time effectively and build efficient schedules.
+
+**- Active Learning and Participation Encouragement**
+
+- Design lessons that promote active student participation through group activities, discussions, and research-based projects, avoiding dull, theory-heavy lectures.
+
+**- Parental Engagement Sessions**
+
+- Organize meetings or workshops for parents on how to support their children academically and emotionally.
 
 
-## 10. Outcomes:
+
