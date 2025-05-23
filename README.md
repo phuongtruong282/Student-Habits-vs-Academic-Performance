@@ -281,8 +281,7 @@ In the scope of this project and dataset, the factors considered as health habit
 
 -   The group with parents holding a Bachelor's or High School education has a slightly higher median score compared to the Master's group, which is contrary to common expectations.This could be due to other factors such as expectations or pressure.
 
-=> Parental education level does not have a linear relationship with exam results. It may have an indirect influence, but it is not a determining factor.
-
+=> Parental education level does not have a linear relationship with exam results.
 
 #### 7.6.2 Exam_score and internet_quality
 
